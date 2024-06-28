@@ -48,7 +48,7 @@ export default async function RootLayout({ children, params: { locale } }) {
           ${font_abc_arizona_mix_regular.variable}
           ${font_abc_arizona_sans_regular.variable}
         `}>
-        <Suspense fallback={null}>
+        {/* <Suspense fallback={null}>
           <Matomo
             config={{
               url: process.env.NEXT_PUBLIC_MATOMO_URL_BASE,
@@ -56,7 +56,7 @@ export default async function RootLayout({ children, params: { locale } }) {
               disableCookies: true
             }}
           />
-        </Suspense>
+        </Suspense> */}
         <NextThemeUiProvider>
           <Navigation locale={locale} />
           {children}

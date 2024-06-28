@@ -27,7 +27,7 @@ const Logo = ({}) => {
       <NextImage
         src={Icon}
         sx={{
-          with: '100%',
+          width: '100%',
           height: 'auto'
         }}
       />
