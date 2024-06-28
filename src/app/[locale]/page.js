@@ -1,3 +1,4 @@
+import { UserLikeWidget } from 'components/UserLikeWidget';
 import { Box, Heading, Paragraph, Section } from 'theme/components';
 
 export default function Home() {
@@ -53,6 +54,7 @@ export default function Home() {
           })}
         </Box>
       </Section>
+      <UserLikeWidget />
     </Box>
   );
 }
